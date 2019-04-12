@@ -1,0 +1,70 @@
+.pic1{
+  width: 80px;
+  height:60px;
+}
+.alert-dismissible
+{
+	width: 1500px;
+}
+.slider-wrap {
+  width: 100%;
+  height:600px;
+  position: relative;
+}
+.single-slide {
+  width: 100%;
+    height: 100%;
+    position: absolute;
+  opacity: 0;
+animation: slider-animation;
+animation-duration: 25s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+  background-size: cover;
+}
+
+#slide-1 {background-color: red; background-image: url(photo/s2.jpg);}
+#slide-2 {background-color: rebeccapurple; animation-delay: 5s; background-image: url(photo/b4.jpeg);}
+#slide-3 {background-color: orange; animation-delay: 10s; background-image: url(photo/b5.jpeg);}
+#slide-4 {background-color: blue; animation-delay: 15s; background-image: url(photo/a.jpg);}
+#slide-5 {background-color: green; animation-delay: 20s; background-image: url(photo/b7.jpeg);}
+
+@keyframes slider-animation {
+    
+0% {
+    opacity: 0;
+}
+6% {
+    opacity: 1;
+}
+24% {
+    opacity: 1;
+}
+30% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+.a
+{
+	/*padding:6px;*/
+	font-size: 2.5rem;
+	font-weight: 800px;
+}
+.col-xl-6
+{
+	height: 500px;
+	width: 1000px;
+}
+.embed-responsive-16by9
+{
+	width:600px;
+	height: 500px;
+}
+.slider-wrap
+{
+	height:400px;
+	 width:600px;
+}
