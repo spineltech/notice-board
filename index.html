@@ -1,91 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Notice Board</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-   
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
- <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style1.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/ab.css">
 <script>
 function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 500);
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
 }
 </script>
 </head>
-<body onload="startTime()">
-<nav class="navbar navbar-expand-lg  navbar-light">
-  <a class="navbar-brand" href="#">LOGO</a>
-  
-  <div class="navbar">
-  	<ul>
-  		<h4 class="center">Aplusengineering notice</h4>
-  		<a href="#" class="text">www.aplusengineering.com</a>
-          <p class="text1">Dhangadhi,kailali</p>
-<div  class="clock">
-	<p id="txt"></p>
-</div>
-
-
-</ul>
-  </div>
-    	
-
-</nav>
-<div class="container-fluid">
-	<br><br>
-	<div class="row row1">
-		<div class="col-md-6">
-			<!-- <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen width="100%"></iframe>
-             </div> -->
-             <img src="images.jpeg" class="img1" width="100%">
+<body>
+	<div class="container-fluid">
+		<div class="row" style="background: red;">
+			<div class="col-xl-2">
+				<img class="img-responsive pic1" src="photo/icon.png">
+			</div>
+			<div class="col-xl-8">
+				<h1 style="color:white;"><b>APLUS ENGINEERING SERVICE PVT.LTD</b></h1>
+				<h4 class="text-center">Setopool-Dhangadhi, kailali</h4>
+			</div>
+			<div class="col-xl-2">
+				<body onload="startTime()">
+					<div id="txt">
+						
+					</div>
+				</body>
+			</div>
 		</div>
-		<div class="col-md-6"style="border-style: solid; background-color: black;"width="1000" >
-           
-			
-				<marquee direction="down" class=" down1"  >
-					<ol>
-						<li><h3> A scrolling text created with HTML Marquee element HTML Marquee element</h3></li><br>
-						<li><h3> A scrolling text created with HTML Marquee element HTML Marquee element</h3></li><br>
-						<li><h3> A scrolling text created with HTML Marquee element HTML Marquee element</h3></li><br>
-						<li><h3> A scrolling text created with HTML Marquee element HTML Marquee element</h3></li><br>
-						<li><h3> A scrolling text created with HTML Marquee element HTML Marquee element</h3></li>
-					</ol>
-				</marquee > </a><br>
-			
-				
-				
-		
-				
-			
-		</div>
-
 	</div>
+    
+    <div class="container-fluid">
+    	<div class="row"> 
+    		<div class="col-xl-6">
+    			<div class="embed-responsive embed-responsive-16by9">
+			        <iframe class="embed-responsive-item" src="aa.mp4" allowfullscreen></iframe>
+			    </div>
+    		</div>
+    		<div class="col-xl-6">
+    		    <div class="slider-wrap">
+				    <div class="single-slide" id="slide-1">
+				      <div class="slider-text-inner text-center animated fadeInup">
+				        <h1 data-animation="animated zoomInRight"></h1>
+				       
+				      </div>
+				    </div>
+				    <div class="single-slide" id="slide-2">
+				     <div class="slider-text-inner text-center"> 
+				        <h1 data-animation="animated zoomInLeft"></h1>
+				        
+				      </div>
+				    </div>
+				    <div class="single-slide" id="slide-3">
+				      <div class="slider-text-inner text-center">
 
-<br>
-</div>
 
+				        <h1 data-animation="animated zoomInLeft" ></h1>
+				        
+				      </div>
+				    </div>
+				    <div class="single-slide" id="slide-4">
+				      <div class="slider-text-inner text-center">
+				        <h1 data-animation="animated zoomInLeft" ></h1>
+				       </div>
+				    </div>
+				    <div class="single-slide" id="slide-5">
+				      <div class="slider-text-inner text-center">
+				        <h1 data-animation="animated zoomInLeft" ></h1>
+				        
+				      </div>
+				    </div>
+				</div>
+				<marquee direction="up">
+				    <div class="list-group">
+					    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Hello World</a>
+					    <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Hello World</a>
+						<a href="#" class="list-group-item list-group-item-action list-group-item-success">Hello world</a>
+				    </div>
+                </marquee>    
+            </div>	
+    	</div>
+    	<div class="row" style="background: red;">
+    		<div class="col-xl-2" style="background:green; color:white;">
+    			<h3><b>Notice:</b></h3>
+    		</div>
+    		<div class="col-xl-10">
+    			<marquee class="a" direction="left to right" style="color: white;">Welcome to Aplus Engineering Service!!! Contact no. +091-5802188 or 9858234567 email:aplus21@gmail.com</marquee>
 
-
-<footer>
-<span class="color"> Notice :</span> <marquee><p> spinel tach give you a opportunity to work softwarespinel tach give you a opportunity to work software</p> </marquee>
-	
-</footer>
-
+    		</div>
+	    </div>
+    </div>
+   
 </body>
 </html>
