@@ -1,0 +1,225 @@
+@media (min-width: 1024px) and (max-width: 1440px) { .img1
+{
+	margin-left: 122px;
+} .over-text
+{
+	
+    color: white;
+    margin-top:-300px ;
+    padding-bottom: 338px;
+     font-size:30px;
+    
+   
+}
+.img6
+{
+	    margin-left: 120px;
+}
+.btn
+{
+	margin-left: 666px;
+}
+.size
+{
+	margin-top: -129px;
+    /*margin-left: 657px;*/
+    color: white;
+    text-align: center;
+     font-size:72px;
+}}
+@media (min-width: 768px) and (max-width: 1024px) { .img1
+{
+	margin-left: 98px;
+	} .over-text
+{
+	
+    color: white;
+    margin-top:-290px ;
+    padding-bottom: 143px;
+   font-size:30px;
+}
+.size
+{
+	margin-top: -129px;
+    /*margin-left: 436px;*/
+    color: white;
+    font-size: 50px;
+} .btn
+{
+	margin-left: 500px;
+} }
+     
+
+
+
+     @media (min-width: 425px) and (max-width: 768px) { .img1
+{
+	margin-left: 59px;
+	}
+.img3
+{
+	margin-left: 30px;
+	} 
+
+.btn
+{
+	margin-left: 351px;
+
+
+}
+.img6
+{
+	margin-left: 131px;
+}
+	}	
+
+
+
+		@media (min-width: 390px) and (max-width: 425px) { .img1
+{
+	margin-left: 132px;
+	}
+
+	.img6
+{
+	    margin-left: 44px;
+}
+.over-text
+{
+	
+    color: white;
+    margin-top:-136px ;
+    padding-bottom: 84px;
+
+}
+.btn
+{
+	margin-left: 168px;
+}
+.size
+{
+	margin-top: -129px;
+    /*margin-left: 305px;*/
+    color: white;
+}}
+@media (min-width: 320px) and (max-width: 390px) { .img1 {
+		margin-left:121px;
+	}  
+.over-text
+{
+	
+    color: white;
+    margin-top:-136px ;
+    padding-bottom: 84px;
+
+}
+.size
+{
+	margin-top: -129px;
+  /*  margin-left: 106px;*/
+    color: white;
+}
+.btn{
+	margin-left: 132px;
+}
+.img6
+{
+	    margin-left: 44px;
+}
+}
+
+
+
+
+
+/*ssmall size mobile*/
+@media (max-width: 320px) { 
+	.text{
+	    margin-left: 4px;
+	}
+	.img6
+{
+	    margin-left: 44px;
+}
+	.img1
+{
+	margin-left: 95px;
+
+
+}
+
+ p{
+ 	font-size: 12px;
+ }
+
+.size
+{
+	margin-top: -129px;
+  /*  margin-left: 61px;*/
+    color: white;
+}
+
+
+
+
+.over-text
+{
+	
+    color: white;
+    margin-top:-138px ;
+    padding-bottom: 58px;
+   
+
+}
+}
+
+	@media (max-width: 425px) { 
+	.img5
+	  {
+		height: 225px;
+	  }
+     .img6
+		{
+			height: 213px;
+			margin-left: 44px;
+		}
+
+       }
+	@media (min-width: 426px) { 
+		.img5
+		{
+			height: 500px;
+		}
+
+
+	}
+	.border
+	{
+		padding: -9px;
+	}
+	.size
+	{ text-align: center;
+	font-style: all; }
+	.over-text
+
+{
+	
+}
+.btn
+{
+    
+    
+	background: #6a7f6a;
+};
+@media (max-width: 425px) { 
+	.over-text
+	{
+		font-size: 50px;
+	}
+	}
+	@media (min-width:426){
+		.over-text
+		{
+			font-size: 100px;
+		}
+	}
